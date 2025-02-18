@@ -26,79 +26,71 @@ footer {
     width: 100%; 
 }
 
-/* -------------------------------------------------- */
-/* 2. Typography - Headings and Paragraphs          */
-/* -------------------------------------------------- */
 
 h1 {
-    font-size: 2.5rem; /* Responsive font size using rem unit */
-    text-align: center; /* Center-align all h1 headings */
-    color: #0056b3; /* A shade of blue for main headings */
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.1); /* Subtle text shadow for h1 - Requirement 8 */
-    margin-bottom: 20px; /* Spacing below h1 headings */
+    font-size: 2.5rem; 
+    text-align: center; 
+    color: #0056b3; 
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.1); 
+    margin-bottom: 20px; 
 }
 
 h2 {
-    font-size: 1.8rem; /* Responsive font size for h2 headings */
+    font-size: 1.8rem; 
     color: #0056b3;
-    margin-top: 25px; /* Spacing above h2 headings */
-    margin-bottom: 15px; /* Spacing below h2 headings */
-    border-bottom: 2px solid #eee; /* Light border under h2 headings for visual separation */
-    padding-bottom: 5px; /* Padding below the border */
+    margin-top: 25px;
+    margin-bottom: 15px; 
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px; 
 }
 
 p {
-    font-size: 1.1rem; /* Slightly larger than default paragraph text */
-    color: #555; /* Slightly lighter text color for paragraphs */
-    margin-bottom: 10px; /* Spacing below paragraphs */
+    font-size: 1.1rem; 
+    color: #555; 
+    margin-bottom: 10px;
 }
 
-/* -------------------------------------------------- */
-/* 3. Navigation Styling (`<nav>`)                   */
-/* -------------------------------------------------- */
+
 nav {
-    background-color: #333; /* Dark background for the navigation bar - Requirement 5 */
-    padding: 10px 0; /* Padding within the navigation bar - Requirement 5 */
+    background-color: #333; 
+    padding: 10px 0; 
 }
 
 nav ul {
-    list-style: none; /* Remove default list bullets */
-    padding: 0; /* Reset padding for the unordered list in nav */
-    margin: 0; /* Reset margin for the unordered list in nav */
-    text-align: center; /* Center-align the navigation links */
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    text-align: center; 
 }
 
 nav li {
-    display: inline; /* Display list items horizontally */
-    margin: 0 15px; /* Spacing between navigation links */
+    display: inline; 
+    margin: 0 15px; 
 }
 
 nav a {
-    text-decoration: none; /* Remove underlines from links - Requirement 5 */
-    color: white; /* White link color - Requirement 5 */
-    font-weight: bold; /* Make navigation links bold */
-    padding: 8px 12px; /* Padding around navigation links for better click area */
-    border-radius: 5px; /* Slightly rounded corners for link backgrounds */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 
 nav a:hover {
-    background-color: #555; /* Darker background color on hover - Requirement 5 (distinct color scheme) */
+    background-color: #555; 
 }
 
-/* -------------------------------------------------- */
-/* 4. List Styling (`<ul>`, `<ol>`, `<dl>`)             */
-/* -------------------------------------------------- */
 ul {
-    list-style-type: square; /* Example of list-style-type - Requirement 4 */
-    list-style-position: outside; /* Default list-style-position but good to be explicit - Requirement 4 */
-    margin-left: 20px; /* Indentation for unordered lists */
+    list-style-type: square; 
+    list-style-position: outside; 
+    margin-left: 20px; 
     margin-bottom: 10px;
 }
 
 ol {
-    list-style-type: decimal; /* Standard decimal numbering for ordered lists */
-    margin-left: 20px; /* Indentation for ordered lists */
+    list-style-type: decimal; 
+    margin-left: 20px; 
     margin-bottom: 10px;
 }
 
@@ -107,104 +99,93 @@ dl {
 }
 
 dt {
-    font-weight: bold; /* Bold font weight for definition terms */
-    margin-top: 10px; /* Spacing above definition terms */
+    font-weight: bold; 
+    margin-top: 10px; 
 }
 
 dd {
-    margin-left: 20px; /* Indentation for definition descriptions */
-    margin-bottom: 10px; /* Spacing below definition descriptions */
-    color: #777; /* Slightly muted color for definition descriptions */
+    margin-left: 20px;
+    margin-bottom: 10px; 
+    color: #777; 
 }
 
 
-/* -------------------------------------------------- */
-/* 5. Form Styling (`<form>`)                          */
-/* -------------------------------------------------- */
+
 form {
-    width: 90%; /* Form width as a percentage of its container */
-    max-width: 600px; /* Maximum width for the form on larger screens */
-    margin: 20px auto; /* Center the form on the page */
+    width: 90%; 
+    max-width: 600px; 
+    margin: 20px auto;
     padding: 20px;
-    background-color: #eee; /* Light grey background for the form area */
-    border-radius: 8px; /* Rounded corners for the form */
+    background-color: #eee; 
+    border-radius: 8px; 
 }
 
 form div {
-    margin-bottom: 15px; /* Spacing between form groups (label and input) */
+    margin-bottom: 15px; 
 }
 
 form label {
-    display: block; /* Make labels take full width and stack above inputs */
-    margin-bottom: 5px; /* Spacing below labels */
-    font-weight: bold; /* Bold labels */
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
 }
 
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    width: 100%; /* Make input fields take full width of their container */
-    padding: 10px; /* Padding inside input fields */
-    border: 1px solid #ccc; /* Light grey border for input fields */
-    border-radius: 4px; /* Slightly rounded corners for input fields */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
-    font-size: 1rem; /* Consistent font size in inputs */
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    font-size: 1rem; 
 }
 
 form textarea {
-    resize: vertical; /* Allow vertical resizing of the textarea */
+    resize: vertical; 
 }
 
 form button[type="submit"] {
-    background-color: #007bff; /* Blue background for the submit button */
-    color: white; /* White text on the submit button */
-    padding: 10px 15px; /* Padding for the submit button */
-    border: none; /* Remove default button border */
-    border-radius: 4px; /* Rounded corners for the button */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    font-size: 1.1rem; /* Slightly larger font size for the button */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 1.1rem; 
+    transition: background-color 0.3s ease; 
 }
 
 form button[type="submit"]:hover {
-    background-color: #0056b3; /* Darker blue on hover for the button */
+    background-color: #0056b3; 
 }
 
-/* -------------------------------------------------- */
-/* 6. Horizontal Rule (`<hr>`)                       */
-/* -------------------------------------------------- */
+
 hr {
-    border: 0; /* Reset default border */
-    border-top: 1px solid #ccc; /* Create a single line border at the top */
-    margin: 20px 0; /* Spacing above and below the hr element */
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 20px 0; 
 }
 
-/* -------------------------------------------------- */
-/* 7. Blockquote Styling (`<blockquote>`, `<figcaption>`) */
-/* -------------------------------------------------- */
+
 blockquote {
-    font-style: italic; /* Italicize the quote text */
-    border-left: 5px solid #0056b3; /* Blue vertical bar to the left of the quote */
-    padding-left: 15px; /* Spacing between the border and the text */
-    margin: 20px 0; /* Spacing above and below the blockquote */
-    background-color: #e2e0e0; /* Very light grey background for the quote block */
-    padding: 15px; /* Overall padding for the blockquote */
-    border-radius: 5px; /* Slightly rounded corners for the blockquote */
+    font-style: italic; 
+    border-left: 5px solid #0056b3; 
+    padding-left: 15px; 
+    margin: 20px 0; 
+    background-color: #e2e0e0; 
+    padding: 15px; 
+    border-radius: 5px; 
 }
 
 figcaption {
-    font-style: normal; /* Reset font style from italic */
-    text-align: right; /* Align the figcaption (author) to the right */
-    font-size: 0.9em; /* Smaller font size for the author */
-    color: #777; /* Muted color for the author */
+    font-style: normal; 
+    text-align: right; 
+    font-size: 0.9em; 
+    color: #777; 
 }
 
 
-/* -------------------------------------------------- */
-/* 8. Class and ID Selectors (Example - you can add more) */
-/* -------------------------------------------------- */
-
-/* Example Class Selector - you can apply this class to any element you want to highlight */
 .highlight {
     background-color: yellow;
     font-weight: bold;
@@ -213,17 +194,17 @@ figcaption {
     border-radius: 3px;
 }
 
-/* Example ID Selector -  you could use this for a very specific element, like a unique intro section */
+
 #top {
-    display: white; /* Make sure the anchor behaves as a block element if needed */
-    padding-top: 20px; /* Example: Add some top padding above the "top" anchor */
-    margin-top: -20px; /* Example: Pull it up to visually align with the top */
+    display: white; 
+    padding-top: 20px; 
+    margin-top: -20px; 
 }
 
 footer a[href="#top"] {
     color: white; }
-/* Style specifically for the "Fruit image model" image (smaller size) */
+
 .fruit-image-figure img {
-    width: 600px; /* Example: Set width to 250 pixels for this specific image */
-    height: auto; /* Maintain aspect ratio */
+    width: 600px; 
+    height: auto; 
 }
