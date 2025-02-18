@@ -1,34 +1,29 @@
-/* styles.css */
-
-/* -------------------------------------------------- */
-/* 1. General Element Styles and Body Styling       */
-/* -------------------------------------------------- */
 
 body {
-    font-family: Arial, sans-serif; /* Setting a default font with a fallback */
-    margin: 0; /* Resetting default body margin */
-    padding: 0; /* Resetting default body padding */
-    background-color: #2a3245; /* Light grey background for the entire page */
-    color: #563e9a; /* Dark grey default text color */
-    line-height: 1.6; /* Good default line height for readability */
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #2a3245; 
+    color: #563e9a; 
+    line-height: 1.6; 
 }
 
 main {
-    width: 80%; /* Setting a percentage width for the main content area */
-    margin: 20px auto; /* Auto left/right margins to center the main content */
+    width: 80%; 
+    margin: 20px auto;
     padding: 20px;
-    background-color: #f9f9f9; /* White background for the main content area */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 footer {
-    background-color: #1e2432; /* Dark background for the footer */
-    color: #fff; /* White text color for the footer */
-    text-align: center; /* Center-align footer text */
-    padding: 10px 0; /* Padding top and bottom in the footer */
-    position: fixed; /* Fixed position to stay at the bottom */
-    bottom: 0; /* Align to the bottom of the viewport */
-    width: 100%; /* Full width of the viewport */
+    background-color: #1e2432;
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
 }
 
 /* -------------------------------------------------- */
